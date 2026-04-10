@@ -22,4 +22,6 @@ function delayedReminder(message, delay) {
   // Resolve the promise once the message is logged
 }
 
+delayedReminder("Drink water", 2000)
+ 
 module.exports = { delayedReminder };
